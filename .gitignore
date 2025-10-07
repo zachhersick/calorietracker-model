@@ -1,0 +1,65 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+db.sqlite3
+*.sqlite3
+*.sqlite
+modelapp/output/
+*.h5
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment files / secrets
+.env
+.env.*
+.env.local
+.env.*.local
+.envrc
+local_settings.py
+local_settings.pyc
+secrets.json
+credentials.json
+aws_credentials
+aws_secret*
+*.key
+*.pem
+*.crt
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+/.ropeproject
+
+# macOS
+.DS_Store
+
+# Logs and reports
+*.log
+.coverage
+coverage.xml
+htmlcov/
+
+# Build/dist
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# Terraform
+.terraform/
+terraform.tfstate*
+.terraform.lock.hcl
+
+# Git credentials
+.git-credentials
